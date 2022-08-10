@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xxx個人官網</title>
-    <link rel="stylesheet" href="all.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GNHW3YSKGY"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xxx個人官網</title>
+
+  <link rel="stylesheet" href="all.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNHW3YSKGY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-GNHW3YSKGY');
-</script>
+</script> -->
 
 </head>
+
 <body>
-    <h1> xxx個人官網 </h1>
-    <h2> title </h2>
+  <h2>註冊功能</h2>
+  帳號：
+  <input type="email" class="accountReg">
+  <br>
+  密碼：
+  <input type="password" class="passwordReg">
+  <br>
+  <input type="button" value="送出" class="sendReg">
 
+  <h2>登入功能</h2>
+  帳號：
+  <input type="email" class="accountLog">
+  <br>
+  密碼：
+  <input type="password" class="passwordLog">
+  <br>
+  <input type="button" value="送出" class="sendLog">
 
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="all.js"></script>
 </body>
 
 </html>
